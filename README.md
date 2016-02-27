@@ -24,7 +24,7 @@ const result = datastream.toArrayBuffer(); // serialize PNG datastream as ArrayB
 
 ## API Document
 
-TBD
+https://doc.esdoc.org/github.com/xKerman/png-datastream/
 
 
 ## Development
