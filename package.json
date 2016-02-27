@@ -16,7 +16,7 @@
     "power-assert": "^1.2.*"
   },
   "engines": {
-    "node": ">= 5.5.0"
+    "node": ">= 4.3.0"
   },
   "files": [
     "lib"
@@ -35,7 +35,7 @@
     "build": "babel src --out-dir lib --source-maps inline",
     "esdoc": "esdoc -c esdoc.json",
     "eslint": "eslint src test",
-    "prepublish": "npm run eslint && npm test && npm run build",
+    "prepublish": "npm run eslint && npm run build",
     "test": "mocha"
   },
   "license": "MIT"
