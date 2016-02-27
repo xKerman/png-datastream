@@ -13,7 +13,7 @@ A library that provides parser / serializer for [PNG datastream](https://www.w3.
 ```js
 // say you got `buf`, PNG ArrayBuffer from somewhere...
 // parse ArrayBuffer as PNG datastream
-const datastream = Datastream.fromBuffer(buf);
+const datastream = Datastream.fromArrayBuffer(buf);
 
 datastream.signature; // PNG signature
 datastream.chunks.forEach(chunk => { /* operation for each chunk */ });
