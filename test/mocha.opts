@@ -1,0 +1,4 @@
+--recursive
+--compilers js:espower-babel/guess
+--reporter dot
+test/
