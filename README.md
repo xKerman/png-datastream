@@ -34,7 +34,7 @@ https://doc.esdoc.org/github.com/xKerman/png-datastream/
 npm test
 # check coding style
 npm run eslint
-# generage document
+# generate document
 npm run esdoc
 ```
 
