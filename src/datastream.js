@@ -25,7 +25,7 @@ export default class Datastream {
     /**
      * @public
      * @param {Signature} aSignature
-     * @param {Array<Chunk>} aChunks
+     * @param {Array<ChunkInterface>} aChunks
      * @throws {PNGError}
      */
     constructor(aSignature, aChunks) {
@@ -43,7 +43,7 @@ export default class Datastream {
 
     /**
      * @public
-     * @type {Array<Chunk>}
+     * @type {Array<ChunkInterface>}
      */
     get chunks() {
         return this._chunks;
@@ -67,13 +67,13 @@ export default class Datastream {
 
     /**
      * @private
-     * @param {Array<Chunk>} aChunks
+     * @param {Array<ChunkInterface>} aChunks
      * @throws {PNGError}
      */
     setChunks(aChunks) {
         /**
          * @private
-         * @type {Array<Chunk>}
+         * @type {Array<ChunkInterface>}
          */
         this._chunks = aChunks;
     }

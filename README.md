@@ -11,6 +11,8 @@ A library that provides parser / serializer for [PNG datastream](https://www.w3.
 ## Example
 
 ```js
+import Datastream from 'png-datastream';
+
 // say you got `buf`, PNG ArrayBuffer from somewhere...
 // parse ArrayBuffer as PNG datastream
 const datastream = Datastream.fromArrayBuffer(buf);
@@ -34,7 +36,7 @@ https://doc.esdoc.org/github.com/xKerman/png-datastream/
 npm test
 # check coding style
 npm run eslint
-# generage document
+# generate document
 npm run esdoc
 ```
 
