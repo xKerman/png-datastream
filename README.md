@@ -1,6 +1,9 @@
-# png-datastream [![Build Status](https://travis-ci.org/xKerman/png-datastream.svg?branch=master)](https://travis-ci.org/xKerman/png-datastream)
+# png-datastream
 
 A library that provides parser / serializer for [PNG datastream](https://www.w3.org/TR/PNG/#4Concepts.Format) that can be able to use in browser environment.
+
+[![Build Status](https://travis-ci.org/xKerman/png-datastream.svg?branch=master)](https://travis-ci.org/xKerman/png-datastream)
+[![npm version](https://badge.fury.io/js/png-datastream.svg)](https://badge.fury.io/js/png-datastream)
 
 
 ## Installation
