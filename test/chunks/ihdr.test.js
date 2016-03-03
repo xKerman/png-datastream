@@ -68,7 +68,7 @@ describe('IHDR chunk', () => {
      * @test {IHDR.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create IHDR chunk from the buffer which is createc by IHDR#toArrayBuffer', () => {
+        it('should create IHDR chunk from the buffer which is created by IHDR#toArrayBuffer', () => {
             const expected = new IHDR(256, 256, 1, ColourType.Greyscale, 0, 0, 0);
             const chunk = Chunk.fromArrayBuffer(expected.toArrayBuffer());
             const actual = IHDR.fromArrayBuffer(chunk.data);

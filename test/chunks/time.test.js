@@ -58,7 +58,7 @@ describe('tIME chunk', () => {
      * @test {tIME.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create tIME chunk from the buffer which is create by tIME#toArrayBuffer', () => {
+        it('should create tIME chunk from the buffer which is created by tIME#toArrayBuffer', () => {
             const actual = new tIME(2000, 11, 1, 12, 34, 56);
             const chunk = Chunk.fromArrayBuffer(actual.toArrayBuffer());
             const expected = tIME.fromArrayBuffer(chunk.data);

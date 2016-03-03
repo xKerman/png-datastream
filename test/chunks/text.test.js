@@ -43,7 +43,7 @@ describe('tEXt chunk', () => {
      * @test {tEXt.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create tEXt chunk from the buffer which is createc by tEXt#toArrayBuffer', () => {
+        it('should create tEXt chunk from the buffer which is created by tEXt#toArrayBuffer', () => {
             const actual = new tEXt('keyword', 'text message');
             const chunk = Chunk.fromArrayBuffer(actual.toArrayBuffer());
             const expected = tEXt.fromArrayBuffer(chunk.data);
