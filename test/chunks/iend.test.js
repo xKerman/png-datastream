@@ -36,7 +36,7 @@ describe('IEND chunk', () => {
      * @test {IEND.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create IEND chunk from the buffer which is createc by IEND#toArrayBuffer', () => {
+        it('should create IEND chunk from the buffer which is created by IEND#toArrayBuffer', () => {
             const actual = new IEND();
             const chunk = Chunk.fromArrayBuffer(actual.toArrayBuffer());
             const expected = IEND.fromArrayBuffer(chunk.data);

@@ -36,7 +36,7 @@ describe('IDAT chunk', () => {
      * @test {IDAT.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create IDAT chunk from the buffer which is createc by IDAT#toArrayBuffer', () => {
+        it('should create IDAT chunk from the buffer which is created by IDAT#toArrayBuffer', () => {
             const actual = new IDAT(new ArrayBuffer(1));
             const chunk = Chunk.fromArrayBuffer(actual.toArrayBuffer());
             const expected = IDAT.fromArrayBuffer(chunk.data);

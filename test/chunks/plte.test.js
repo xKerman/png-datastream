@@ -38,7 +38,7 @@ describe('PLTE chunk', () => {
      * @test {PLTE.fromArrayBuffer}
      */
     context('.fromArrayBuffer', () => {
-        it('should create PLTE chunk from the buffer which is createc by PLTE#toArrayBuffer', () => {
+        it('should create PLTE chunk from the buffer which is created by PLTE#toArrayBuffer', () => {
             const table = [new RGB(1, 2, 3), new RGB(4, 5, 6)];
             const actual = new PLTE(table);
             const chunk = Chunk.fromArrayBuffer(actual.toArrayBuffer());
