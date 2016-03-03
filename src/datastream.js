@@ -6,6 +6,7 @@ import IHDR from './chunks/ihdr.js';
 import IEND from './chunks/iend.js';
 import PLTE from './chunks/plte.js';
 import tEXt from './chunks/text.js';
+import tIME from './chunks/time.js';
 import PNGError from './pngerror.js';
 import Signature from './signature.js';
 
@@ -15,7 +16,8 @@ const definitions = {
     'IHDR': IHDR,
     'IEND': IEND,
     'PLTE': PLTE,
-    'tEXt': tEXt
+    'tEXt': tEXt,
+    'tIME': tIME
 };
 
 /**
