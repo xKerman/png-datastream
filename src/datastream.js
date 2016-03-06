@@ -1,17 +1,19 @@
 // -*- coding: utf-8 -*-
 
 import Chunk from './chunk.js';
+import PNGError from './pngerror.js';
+import Signature from './signature.js';
+import gAMA from './chunks/gama.js';
 import IDAT from './chunks/idat.js';
 import IHDR from './chunks/ihdr.js';
 import IEND from './chunks/iend.js';
 import PLTE from './chunks/plte.js';
 import tEXt from './chunks/text.js';
 import tIME from './chunks/time.js';
-import PNGError from './pngerror.js';
-import Signature from './signature.js';
 
 
 const definitions = {
+    'gAMA': gAMA,
     'IDAT': IDAT,
     'IHDR': IHDR,
     'IEND': IEND,
