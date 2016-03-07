@@ -3,6 +3,7 @@
 import Chunk from './chunk.js';
 import PNGError from './pngerror.js';
 import Signature from './signature.js';
+import cHRM from './chunks/chrm.js';
 import gAMA from './chunks/gama.js';
 import IDAT from './chunks/idat.js';
 import IHDR from './chunks/ihdr.js';
@@ -13,6 +14,7 @@ import tIME from './chunks/time.js';
 
 
 const definitions = {
+    'cHRM': cHRM,
     'gAMA': gAMA,
     'IDAT': IDAT,
     'IHDR': IHDR,
