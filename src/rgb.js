@@ -3,7 +3,6 @@
 import PNGError from './pngerror.js';
 
 const COLOUR_MIN = 0;
-const COLOUR_MAX = 255;
 
 /**
  * utility class for RGB colour
@@ -27,8 +26,8 @@ export default class RGB {
      * @throws {PNGError}
      */
     validate(aValue) {
-        if (aValue < COLOUR_MIN || aValue > COLOUR_MAX) {
-            throw new PNGError(`invalid color value, got: ${ aValue }`);
+        if (aValue < COLOUR_MIN) {
+            throw new PNGError(`invalid colour value, got: ${ aValue }`);
         }
     }
 
