@@ -26,9 +26,6 @@ describe('RGB', () => {
             assert.throws(() => new RGB(-1, 0, 0), Error);
             assert.throws(() => new RGB(0, -1, 0), Error);
             assert.throws(() => new RGB(0, 0, -1), Error);
-            assert.throws(() => new RGB(256, 0, 0), Error);
-            assert.throws(() => new RGB(0, 256, 0), Error);
-            assert.throws(() => new RGB(0, 0, 256), Error);
         });
     });
 });
